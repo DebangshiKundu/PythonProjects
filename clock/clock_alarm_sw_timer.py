@@ -38,7 +38,7 @@ label.pack(padx=75, pady=75)
 canvas = tk.Canvas(window, width=200, height=400,bg='black')
 canvas.pack(expand=True, fill='both')
 
-bg = tk.PhotoImage(file='pythonProject/clock/clockimg.png')
+bg = tk.PhotoImage(file='/Users/debangshi/Desktop/Projects/pythonProject/clock/clockimg.png')
 
 canvas.create_image(390, 250, image=bg)
 
